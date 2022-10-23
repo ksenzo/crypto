@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gulp deployFTP --build"
+    "deploy": "gulp deployFTP --build",
+    "gulp": "gulp",
+    "minify": "gulp minify"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +22,7 @@
     "gulp-fonter": "latest",
     "gulp-group-css-media-queries": "latest",
     "gulp-imagemin": "latest",
+    "gulp-install": "^1.1.0",
     "gulp-newer": "latest",
     "gulp-notify": "latest",
     "gulp-plumber": "latest",
