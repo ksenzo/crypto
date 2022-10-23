@@ -1,0 +1,180 @@
+@import "fonts";
+@import "nullstyle";
+@import "header";
+
+._container {
+   max-width: 1120px;
+   margin: 0 auto;
+}
+
+
+.webp {
+   background-color: #1B1B1B;
+   position: relative;
+   overflow-x: hidden;
+   height: 100%;
+   box-shadow: 4px 0px 250px rgba(236, 208, 111, 0.1);
+   z-index: 1;
+}
+
+.__elips {
+   background: #1B1B1B;
+   box-shadow: 4px 0px 250px rgba(236, 208, 111, 0.1);
+}
+
+.banner {
+   position: relative;
+   padding: 187px 0 187px 0;
+   overflow-x: hidden;
+}
+
+.right_pic {
+   background: radial-gradient(70.46% 41.77% at 50% 50%, rgba(255, 255, 255, 0) 0%, #1b1b1b 100%), url(../img/terminal.png) no-repeat 50% 50% / contain;
+   background-size: contain;
+   position: absolute;
+   width: 769px;
+   height: 820.74px;
+   right: -273px;
+   top: -50px;
+   z-index: -3;
+   opacity: 0.2;
+   transition: all 0.2s ease 0s;
+}
+
+.right_pic.__active {
+   opacity: 0.3;
+   transition: all 0.2s ease 0s;
+}
+
+.left_pic.__active {
+   opacity: 0.3;
+   transition: all 0.2s ease 0s;
+}
+
+.left_pic {
+   transition: all 0.2s ease 0s;
+   background: radial-gradient(70.46% 41.77% at 50% 50%, rgba(255, 255, 255, 0) 0%, #1b1b1b 100%), url(../img/crypyo.png) no-repeat 50% 50% / contain;
+   background-size: contain;
+   position: absolute;
+   width: 769px;
+   height: 900.74px;
+   left: -273px;
+   top: 50px;
+   z-index: -3;
+   opacity: .2;
+}
+
+.banner__container {
+}
+
+._container {
+}
+
+.banner__body {
+   max-width: 1000px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+
+.banner__left {
+   flex: 0 1 39%;
+   height: 576px;
+   text-align: center;
+   background-position-x: 20%;
+   cursor: pointer;
+   &:hover {
+      .banner__left_hover {
+         transition: all 0.2s ease 0s;
+         transform: rotate(-7deg) scale(1.1);
+      }
+   }
+}
+
+.exchange {
+   font-family: 'SFProDisplay-Black';
+   font-weight: 900;
+   font-size: 64px;
+   line-height: 76px;
+   color: #FFFFFF;
+   z-index: -1;
+   margin-top: 80px;
+}
+
+.banner__right {
+   flex: 0 1 32%;
+   height: 576px;
+   text-align: center;
+   cursor: pointer;
+   &:hover {
+      .banner__right_hover {
+         transition: all 0.2s ease 0s;
+         transform: rotate(7deg) scale(1.1);
+      }
+   }
+}
+
+.banner__right_hover {
+   position: absolute;
+   transition: all 0.2s ease 0s;
+   background-image: url(../img/terminal.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   padding: 71px 0 505px 0;
+   width: 406px;
+   height: 460px;
+   z-index: -1;
+}
+
+.banner__left_hover {
+   position: absolute;
+   transition: all 0.2s ease 0s;
+   background-image: url(../img/crypyo.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   padding: 71px 0 505px 0;
+   width: 406px;
+   height: 460px;
+   z-index: -1;
+}
+
+.circle__wrap {
+   width: 100%;
+   position: absolute;
+   left: 0px;
+   top: -712px;
+   z-index: -2;
+   transition: all 0.4s ease 0s;
+   opacity: 0.3;
+}
+
+.circle {
+   margin: 0 auto;
+   background: #1B1B1B;
+   box-shadow: 4px 0px 250px rgba(236, 208, 111, 0.6);
+   width: 1480px;
+   height: 1480px;
+   border-radius: 50%;
+}
+
+.circle__wrap.__left {
+   left: -151px;
+   top: -659px;
+   opacity: .6;
+   transition: all 0.4s ease 0s;
+}
+
+.circle__wrap.__right {
+   left: 208px;
+   top: -659px;
+   opacity: .6;
+   transition: all 0.4s ease 0s;
+}
+
+#exchange {
+   transform: translateX(55px);
+}
+
+
+
+

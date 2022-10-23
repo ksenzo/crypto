@@ -1,0 +1,43 @@
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.header__container {
+}
+
+._container {
+}
+
+.header__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  transform: translateX(-25px);
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  font-family: 'Open Sans Regular';
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  &:not(:last-child) {
+    margin-right: 26px;
+  }
+
+  &:hover, :focus {
+    color: #ECD06F;
+  }
+}
+
+.__active_nav {
+  color: #ECD06F;
+}
