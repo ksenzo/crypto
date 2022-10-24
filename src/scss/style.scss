@@ -1,12 +1,22 @@
 @import "fonts";
 @import "nullstyle";
 @import "header";
+@import "calc";
 
 ._container {
    max-width: 1120px;
    margin: 0 auto;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+button {
+   background: rgba(255, 255, 255, 0);
+}
 
 .webp {
    background-color: #1B1B1B;
@@ -26,6 +36,14 @@
    position: relative;
    padding: 187px 0 187px 0;
    overflow-x: hidden;
+}
+
+.banner__btn_wrap {
+   position: absolute;
+   width: 100%;
+   bottom: 250px;
+   text-align: center;
+   z-index: -1;
 }
 
 .right_pic {
@@ -71,7 +89,7 @@
 }
 
 .banner__body {
-   max-width: 1000px;
+   max-width: 1100px;
    display: flex;
    margin: 0 auto;
    justify-content: space-between;
@@ -173,6 +191,18 @@
 
 #exchange {
    transform: translateX(55px);
+}
+
+.btn_scroll {
+   background: rgba(255, 255, 255, 0);
+   padding: 21px;
+   border: 1px solid rgba(254, 214, 54, 0.2);;
+   border-radius: 50%;
+   .btn_scroll_img {
+      padding: 19px;
+      border: 1px solid #FFFFFF;
+      border-radius: 50%;
+   }
 }
 
 

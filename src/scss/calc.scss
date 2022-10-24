@@ -1,0 +1,225 @@
+.calc {
+}
+
+.calc__wrap {
+}
+
+._container {
+}
+
+.calc__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calc__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc__title {
+  max-width: 496px;
+  font-family: 'SFProDisplay-Medium';
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 14px;
+  span {
+    background: -webkit-linear-gradient(#ECD06F, #2E2E2F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.calc__subtitle {
+  max-width: 496px;
+  font-family: 'Open Sans Regular';
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  border-left: 1px solid #ECD06F;
+  box-shadow: -1px 0px 0px rgb(254 214 54 / 60%);
+  padding: 10px 0 10px 17px;
+}
+
+.calc__calculator {
+}
+
+.calculator {
+  width: 443px;
+  height: 486px;
+  background: linear-gradient(245.7deg, rgba(19, 19, 19, 0.6) 47.22%, rgba(88, 84, 22, 0.6) 318.22%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.calculator__wrap {
+}
+
+.calculator__body {
+  display: flex;
+  padding: 13px;
+  flex-direction: column;
+}
+
+.calculator__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calculator__header_btns {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.calculator__header_buy_btn {
+  font-family: 'Open Sans Semibold';
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 20px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #ECD06F;
+}
+
+.calculator__header_sell_btn {
+  font-family: 'Open Sans Semibold';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #ECD06F;
+}
+
+.calculator__header_icons {
+  display: flex;
+  align-items: center;
+}
+
+.calculator__header_icons_btn {
+  &:first-child {
+    margin-right: 15px;
+  }
+  &:nth-child(2) {
+    margin-right: 10px;
+  }
+}
+
+.calculator__windows {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator__up_window {
+  background: #131313;
+  border-radius: 12px;
+  padding: 20px 16px;
+  &:hover {
+    border: 1px solid #ECD06F;
+    padding: 19px 15px;
+  }
+}
+
+.calculator__up_window_title {
+  font-family: 'Open Sans Regular';
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.calculator__up_window_currency {
+}
+
+.calculator__up_window_currency_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.calculator__up_window_currency_select {
+  font-family: 'Open Sans Semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.calculator__up_window_currency_input {
+  width: 270px;
+  background: #131313;
+  input {
+    height: 100%;
+    text-align: right;
+    width: 100%;
+    background: #131313;
+    font-family: 'Open Sans Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+}
+
+.calculator__up_window_currency_subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator__down_window {
+  background: #131313;
+  border-radius: 12px;
+  padding: 20px 16px;
+  margin-top: 12px;
+}
+
+.calculator__down_window:hover {
+  border: 1px solid #ECD06F;
+  padding: 19px 15px;
+}
+
+.calculator__types {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calculator__type {
+  font-family: 'SFProDisplay-Medium';
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  i {
+    margin-right: 5px;
+  }
+}
+
+.calculator__buy_btn {
+  width: 100%;
+  margin-top: 12px;
+  background: #ECD06F;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'SFProDisplay-Medium';
+  font-size: 16px;
+  line-height: 19px;
+  color: #131313;
+}
